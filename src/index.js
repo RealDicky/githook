@@ -26,8 +26,11 @@ program
     .description('Get or set configuration')
     .action((key, value) => {
         if (value) {
-            config.set(key, value);
-            console.log(chalk.green(`Configuration updated: ${key} = ${value}`));
+            let val = value;
+            if (value === 'true') val = true;
+            if (value === 'false') val = false;
+            config.set(key, val);
+            console.log(chalk.green(`Configuration updated: ${key} = ${val}`));
         } else {
             console.log(`${key} = ${config.get(key)}`);
         }

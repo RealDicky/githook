@@ -1,5 +1,5 @@
 {
-  "name": "githook",
+  "name": "@realdicky/gma-cli",
   "version": "1.0.0",
   "description": "",
   "main": "bin/gma.js",
