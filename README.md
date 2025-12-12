@@ -1,8 +1,27 @@
 # GMA (Git Message AI)
 
+[![NPM Version](https://img.shields.io/npm/v/@realdicky/gma-cli)](https://www.npmjs.com/package/@realdicky/gma-cli)
+[![Downloads](https://img.shields.io/npm/dm/@realdicky/gma-cli)](https://www.npmjs.com/package/@realdicky/gma-cli)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[English](#english) | [中文](#chinese)
+
+**GMA** is an AI-powered CLI tool that automatically generates Conventional Commits messages based on your code changes (`git diff`).
+
 **GMA** 是一个基于 AI 的命令行工具，能够根据您的代码变更（`git diff`）自动生成符合 Conventional Commits 规范的 Git 提交信息。
 
-## 功能特性
+<h2 id="english">Features</h2>
+
+- 🤖 **AI-Powered**: Generates precise commit messages from code changes.
+- 🚀 **One-Click Workflow**: Automatically does `git add -A` -> generate message -> `git commit`.
+- 📝 **Interactive**: Review, edit, or cancel before committing.
+- ⚡️ **Auto Mode**: Supports `autoCommit` for true zero-click committing.
+- 🌐 **Multi-language**: Supports English, Chinese, etc. (Default: Chinese).
+- 🔌 **Model Compatible**: Defaults to DeepSeek, compatible with other OpenAI-format APIs.
+
+<h2 id="chinese">功能特性</h2>
+
+
 
 - 🤖 **AI 驱动**：根据代码变更自动生成精准的提交信息。
 - 🚀 **一键流程**：自动执行 `git add -A` -> 生成信息 -> `git commit`。
@@ -72,4 +91,4 @@ A: 确保您的工作区有修改文件。GMA 会自动执行 `git add -A`，但
 
 ## License
 
-ISC
+MIT

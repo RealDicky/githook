@@ -10,9 +10,28 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "git",
+    "ai",
+    "commit",
+    "conventional-commits",
+    "deepseek",
+    "openai",
+    "hook",
+    "automation",
+    "cli",
+    "gma"
+  ],
+  "author": "RealDicky",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealDicky/githook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RealDicky/githook/issues"
+  },
+  "homepage": "https://github.com/RealDicky/githook#readme",
   "packageManager": "pnpm@10.19.0",
   "dependencies": {
     "axios": "^1.13.2",
