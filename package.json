@@ -4,7 +4,8 @@
   "description": "",
   "main": "bin/gma.js",
   "bin": {
-    "gma": "bin/gma.js"
+    "gma": "bin/gma.js",
+    "gmm": "bin/gmm.js"
   },
   "type": "module",
   "scripts": {

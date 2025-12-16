@@ -18,9 +18,17 @@ const schema = {
         type: 'boolean',
         default: false
     },
-    language: {
+	language: {
         type: 'string',
         default: 'zh-CN'
+    },
+    prefix: {
+        type: 'string',
+        default: ''
+    },
+    baseBranch: {
+        type: 'string',
+        default: 'master'
     }
 };
 
