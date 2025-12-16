@@ -1,6 +1,6 @@
 {
   "name": "@realdicky/gma-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "bin/gma.js",
   "bin": {
@@ -21,7 +21,9 @@
     "hook",
     "automation",
     "cli",
-    "gma"
+    "gma",
+    "gmm",
+    "branch"
   ],
   "author": "RealDicky",
   "license": "MIT",
